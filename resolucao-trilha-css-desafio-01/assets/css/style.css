@@ -1,0 +1,186 @@
+@import url(./reset.css); /* Importação de arquivo de redefinição de estilos ("reset") */
+
+body {
+    background-color: black; /* Define a cor de fundo do corpo da página como preto */
+}
+
+
+h2 {
+    font-size: 32px; /* Tamanho da fonte*/
+    font-weight: bold; /* Fonte em negrito*/
+    line-height: 38px; /* Altura da linha*/
+    letter-spacing: 4px; /* Espaçamento entre as letras*/
+    text-align: center; /* Alinhamento do texto central*/
+    color: #33A8DB; /* Cor da fonte */
+    text-transform: uppercase;  /* Transformação do texto para Caps Lock*/
+    margin-bottom: 24px; /*Margem inferior de 24 px*/
+
+}
+
+p {
+      color: white; /* Aplica a cor branca a todos os elementos <p> (parágrafos) do  HTML*/
+}
+
+   section {
+    margin: 100px auto; /* Especifica 100 pixels de margem em todos os lados (superior, direita, inferior e esquerda). O valor auto para a margem horizontal (esquerda e direita) centraliza o elemento horizontalmente*/
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../imagens/banner.png); /* Cor do fundo gradiente e importação de imagem para o fundo*/
+    background-size: cover; /* Imagem importada para o fundo cubre completamente o contêiner, mantendo a proporção*/
+    background-repeat: no-repeat;/* Propriedade evita a repetição da imagem de fundo */
+    height: 600px;/* Altura do elemento*/
+    padding-top: 60px; /*Adiciona espaçamento interno a borda superior do elemento.*/
+    border-bottom: 1px solid #33A8DB80 /*Adiciona borda inferior sólida de 1 px e cor a borda)*/
+}
+
+.banner .banner-content {
+    text-align: center; /* Alinhamento do texto central*/
+    margin: auto; /* Margem automática ou seja centralizada */
+    width: 600px; /* Largura do elemento*/
+    color: white; /*Cor do elemento*/
+  }
+
+.banner h1 {
+    font-size: 40px; /* Tamanho da fonte*/
+    font-weight: 900; /* Peso da fonte*/
+    line-height: 47px; /* Altura da linha*/
+    text-transform: uppercase; /* Transformação do texto para Caps Lock*/
+    color: transparent; /* Cor transparente para que possa ser usado fundo gradiente*/
+    background: -webkit-linear-gradient(#33A8DB, #1472B7); /* Cor do fundo gradiente*/
+    background-clip: text; /* Fundo recortado para contorno do texto*/
+  -webkit-background-clip: text; /* Prefixo para que a cor do fundo gradiente possa ser utilizada no Crhome*/
+}
+  
+.banner p {
+    font-size: 23px; /* Tamanho da fonte*/
+    font-weight: normal; /* Peso da fonte*/
+    line-height: 23px; /* Altura da linha*/
+    letter-spacing: 0em; /* Espaçamento entre as letras*/
+    text-align: center; /* Alinhamento do texto central*/
+    margin: 16px 0 24px; /* Margens do elemento: Superior 16px, laterais 0px, inferior 24 px.*/
+}
+
+.banner .logo {
+    background-color: #00000033; /* Cor do elemento de fundo*/
+    height: 260px; /* Altura do elemento*/
+    width: 260px; /* Largura do elemento*/
+    margin: auto; /* Margem automática ou seja centralizada */
+    border-radius: 50%;/* LBorda arredondada em 50%*/
+    padding: 16px; /* Espaçamento interno de 16 pixels em todas as direções */
+    margin-bottom: 16px; /*Margem inferior de 16 px*/
+}
+
+.banner .logo img {
+    margin: auto; /* Margem automática ou seja centralizada */
+    object-fit: contain; /* Dimensionamento da imagem original */
+    width: 100%; /* Largura do elemento como 100% da largura do seu contêiner*/
+    height: 100%; /* Altura do elemento como 100% da largura do seu contêiner*/
+}
+
+.banner .banner-content button {
+    color: #31A8DD; /* Cor da fonte */
+    width: 326px;/* Largura do elemento*/
+    height: 57px;/* Altura do elemento*/
+    top: 473px;/* Posicionamento do elemento 723px do topo*/
+    left: 557px;/* Posicionamento do elemento 324px da esquerda*/
+    text-transform: uppercase;/* Transformação do texto para Caps Lock*/
+    font-size: 20px;/* Tamanho da fonte*/
+    font-weight: bold; /* Fonte em negrito*/
+    letter-spacing: 4px; /* Espaçamento entre as letras*/
+    background-color: transparent; /* Cor do elemento de fundo #252525 */
+    border: 2px solid; /* Borda sólida expessura 2px */
+    border-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%); /* Cor da borda gradiente */
+    border-image-slice: 10; /* Fatiamento da borda*/
+}
+
+#course-countent {
+    width: 792px; /* Largura do elemento*/
+    height: 325px;/* Altura do elemento*/
+    top: 723px; /* Posicionamento do elemento 723px do topo*/
+    left: 324px;/* Posicionamento do elemento 324px da esquerda*/
+    text-align: center; /* Alinhamento do texto central*/
+}
+
+#course-countent .modules-list {
+    margin:24px 0;;
+}
+
+#course-content .modules-list .module {
+    color: white; /* Cor da fonte */
+    background-color: #252525; /* Cor do elemento de fundo #252525 */
+    width: 530px; /* Largura do elemento*/
+    margin: 0 auto 24px; /* Margens do elemento: Superior 0px, laterais automáticas, inferior como 24 px.*/
+    border: 1px solid #33A8DB; /* Borda sólida, expessura de 1px cor #33A8DB */
+    padding: 16px; /*espaçamento interno de 16 pixels em todas as direções */
+    border-radius: 50px; /* Borda arredondada */
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); /* Sombra interna, posição horizontal da sombra -5px, posição verticaal da sombra -6px, raio do desfoque da sombra 8px, cor rgba(0, 0, 0, .7)*/
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB; /* Cor do texto do span*/
+  }
+
+#course-content p {
+    margin-bottom: 20px;/* Margem inferior do parágragrafo*/
+    text-align: center; /* Alinhamento do texto central*/
+}
+
+#transform-world {
+    height: 560px; /*Tamanho do elemento*/
+    background-image: url(../imagens/woman-code.png); /* Importação da imagem de fundo*/
+    background-size: cover; /* Imagem importada para o fundo cubre completamente o contêiner, mantendo a proporção*/
+    background-attachment: fixed; /* Criação de efeito parallax, onde o fundo parece permanecer estático enquanto o conteúdo rola.*/
+    border-top: 1px solid #33A8DB80; /* Borda superior expessura 1px, sólida com a cor #33A8DB80 */
+    border-bottom: 1px solid #33A8DB80; /* Borda inferior expessura 1px, sólida com a cor #33A8DB80 */
+    padding: 200px; /*espaçamento interno de 200px pixels em todas as direções */
+
+}
+
+#transform-world p {
+    font-size: 40px; /* Tamanho da fonte*/
+    font-weight: 1000; /* Peso da fonte*/
+    text-transform: lowercase; /* Transformação do texto para letras minusculas*/
+    text-shadow: 3px 2px #33A8DB; /* Sombreamento do texto*/
+    width: 244px; /* Largura do elemento*/
+    height: 141px; /* Altura do elemento */
+    top: 111px; /* Posiciona o elemento a 111px do topo*/
+    
+}
+
+#professional-challenges {
+    width: 746px; /* Largura do elemento*/
+    height: 600px; /* Altura do elemento */
+    top: 1577px; /* Posiciona o elemento a 1577px do topo*/
+    left: 347px; /* Posiciona o elemento a 347px da esquerda do elemento*/
+
+}
+
+#professional-challenges img {
+    margin: 32px 0; /* Margens superior 32px e inferior com 0px */
+  }
+
+#professional-challenges p {
+    font-size: 16px; /* Tamanho da fonte*/
+    text-align: center; /* Alinhamento do texto central*/
+    font-weight: 400; /* Peso da fonte*/
+    line-height: 19px; /* Altura da linha*/
+    letter-spacing: 0px; /* Espaçamento entre as letras*/
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;/* Alinhamento do texto central*/
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2)); /* Fundo gradiente */
+    border-top: 1px solid #33A8DB80; /* Borda expessura 1px, sólida cor #33A8DB8*/
+  }
+  
+  footer .dio-logo {
+    width: 300px; /* Largura da imagem*/
+  }
+  
+  footer a {
+    color: #33A8DB;/*Cor da fonte*/
+    font-weight: bold; /*Peso da fonte*/
+    text-decoration: none; /* Remove o sublinhado do link do site da Dio*/
+  }
